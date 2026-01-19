@@ -14,6 +14,8 @@ public class CustomerService {
         // Scenario: 
         // Expected Result: 
         Console.WriteLine("Test 1");
+        Var hotel = AddNewCustomer(10);
+        hotel.AddNewCustomer();
 
         // Defect(s) Found: 
 
@@ -23,12 +25,27 @@ public class CustomerService {
         // Scenario: 
         // Expected Result: 
         Console.WriteLine("Test 2");
-
+        Var bar = AddNewCustomer(10);
+        bar.AddNewCustomer();
         // Defect(s) Found: 
 
         Console.WriteLine("=================");
 
         // Add more Test Cases As Needed Below
+        Console.WriteLine("Test 3");
+        Console.WriteLine("=================");
+
+        Console.WriteLine("Test 4");
+        Console.WriteLine("=================");
+
+        Console.WriteLine("Test 5");
+        Console.WriteLine("=================");
+
+        Console.WriteLine("Test 6");
+        Console.WriteLine("=================");
+
+        Console.WriteLine("Test 7");
+        Console.WriteLine("=================");
     }
 
     private readonly List<Customer> _queue = new();
